@@ -1,7 +1,7 @@
 from selenium.webdriver.common.by import By
 import time
 
-
+#  Requires Python 3.10 or newer for conftest.py
 def test_add_to_cart_button_exists(browser, language_switch):
     lang_link = language_switch
     link = f'http://selenium1py.pythonanywhere.com/{lang_link}/catalogue/coders-at-work_207/'
